@@ -23,7 +23,9 @@ Welcome to the Prodigy Infotech Machine Learning repository! This repository fea
 
 **Key Features:**
 - Historical sales data preprocessing
+  
 - Feature engineering for time-series data
+  
 - Model training and evaluation
 
 ### 2. PRODIGY_ML_02_Clustering_Mall_Customers
@@ -35,7 +37,9 @@ Welcome to the Prodigy Infotech Machine Learning repository! This repository fea
 **Key Features:**
 
 -Data preprocessing and normalization
+
 -Application of clustering algorithms
+
 -Visualization of clusters and insights
 
 ### 3. PRODIGY_ML_03_Image_Classification
@@ -47,8 +51,12 @@ Welcome to the Prodigy Infotech Machine Learning repository! This repository fea
 **Key Features:**
 
 -Image data preprocessing
+
 -Application of CNNs for image classification
+
 -Model evaluation and performance metrics
+
+
 
 ### 4. PRODIGY_ML_04_CNN_Hand_Gesture_Recognition
 
@@ -58,16 +66,29 @@ Welcome to the Prodigy Infotech Machine Learning repository! This repository fea
 
 **Key Features:**
 
-Hand gesture dataset preparation
-Training CNNs for gesture recognition
-Model performance evaluation and fine-tuning
+-Hand gesture dataset preparation
+
+-Training CNNs for gesture recognition
+
+-Model performance evaluation and fine-tuning
 
 
+### Getting Started
+
+To get started with any of these tasks, clone the repository and follow the instructions provided in each task's directory. Ensure you have the necessary dependencies installed and follow the guidelines for data preparation, model training, and evaluation.
+
+### Contributing:
+
+Contributions are welcome! If you have suggestions, improvements, or new tasks to add, feel free to create a pull request or open an issue.
+
+### License:
+
+This project is licensed under the MIT License - see the LICENSE (#LICENSE)file for details.
 
 **Setup and Usage:**
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/prodigy-infotech-ml-tasks.git
+   https://github.com/Subash304/Prodigyinfotech-Internship/edit/main/Prodigy-InfoTech/Prodigy-InfoTech.git
 
 # Navigate to the directory
 cd PRODIGY_ML_01_Sales_Prediction
