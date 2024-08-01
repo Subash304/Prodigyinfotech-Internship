@@ -1,157 +1,79 @@
-<div align='center'>
-   <img src="https://socialify.git.ci/yashksaini-coder/Prodigy-InfoTech/image?font=Source%20Code%20Pro&forks=1&issues=1&language=1&name=1&owner=1&pattern=Plus&pulls=1&stargazers=1&theme=Dark" alt="Prodigy-InfoTech" width="640" height="320"/>
+# Prodigy Infotech Machine Learning Tasks
 
-   [![LinkedIn](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://linkedin.com/in/yashksaini)
-   [![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@yashksaini)
-   [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yashksaini/)
-   [![Leetcode](https://img.shields.io/badge/-LeetCode-FFA116?style=for-the-badge&logo=LeetCode&logoColor=black)](https://leetcode.com/u/yashksaini/)
-   [![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=Kaggle&logoColor=white)](https://www.kaggle.com/yashsaini007)
-</div>
+Welcome to the Prodigy Infotech Machine Learning repository! This repository features several machine learning tasks aimed at solving real-world problems. Each task showcases different aspects of machine learning, from predictive modeling to image classification. Below, you'll find a brief overview of each task along with instructions for getting started.
 
-Welcome to the ProdigyInfoTech Machine Learning Engineer Projects Repository! Here, you'll find a collection of cutting-edge projects developed by me during my internship. This repository serves as a showcase of my commitment to innovation and excellence in the field of machine learning.
+## Table of Contents
 
-🚀 There is a diverse range of projects that span across various domains, including:
+- [Task Descriptions](#task-descriptions)
+  - [PRODIGY_ML_01_Sales_Prediction](#prodigy_ml_01_sales_prediction)
+  - [PRODIGY_ML_02_Clustering_Mall_customers](#prodigy_ml_02_clustering_mall_customers)
+  - [PRODIGY_ML_03_Image_Classification](#prodigy_ml_03_image_classification)
+  - [PRODIGY_ML_04_CNN_Hand_Gesture_Recognition](#prodigy_ml_04_cnn_hand_gesture_recognition)
+- [Getting Started](#getting-started)
+- [Contributing](#contributing)
+- [License](#license)
 
-- 🌐 Predicting Real Estate Sale Prices
-- 🎮 Clustering Mall customers
-- 🖼️ Image Classification
-- ✋ CNN Hand Gesture Recognition
+## Task Descriptions
 
-👨‍💻 Machine Learning Engineer's Fundamental Role
-A machine learning engineer plays a crucial role in bridging the gap between theoretical concepts and practical applications of machine learning. This multifaceted role involves the following key responsibilities:
+### 1. PRODIGY_ML_01_Sales_Prediction
 
-📊 Data Collection and Preprocessing:-
-Acquire and preprocess relevant data, ensuring its quality, completeness, and suitability for machine learning tasks.
+**Objective:** Predict future sales based on historical sales data.
 
-🧠 Model Development:-
-Design, implement, and fine-tune machine learning models that align with project objectives. This involves selecting appropriate algorithms, optimizing parameters, and validating model performance.
+**Description:** This task involves creating a predictive model to forecast sales figures. You will work with time-series data or historical sales records to train a model that can make accurate predictions. Techniques may include regression analysis, time-series forecasting, and other predictive algorithms.
 
-🎛️ Feature Engineering:-
-Extract meaningful features from data to enhance the predictive power of machine learning models.
+**Key Features:**
+- Historical sales data preprocessing
+- Feature engineering for time-series data
+- Model training and evaluation
 
-✅ Evaluation and Validation:-
-Assess the performance of models using various metrics and validation techniques to ensure robustness and generalization to new data.
+### 2. PRODIGY_ML_02_Clustering_Mall_Customers
 
-📚 Continuous Learning:-
-Stay abreast of the latest advancements in machine learning and related fields to incorporate new techniques and methodologies into projects.
+**Objective:** Group customers into clusters based on their purchasing behavior.
 
-# 🛠️ Skills and Tech Stack for a Machine Learning Engineer
-To excel in the role of a machine learning engineer, individuals must possess a diverse set of skills, including:
+**Description:** This task focuses on customer segmentation using clustering algorithms. By analyzing customer data, you can identify distinct groups or segments based on features such as spending habits and visit frequency. Techniques may include K-means clustering, hierarchical clustering, and other unsupervised learning methods.
 
-| Skill                | Tech Stack                          |
-|----------------------|-------------------------------------|
-| 💻 Programming       | Python, R, Java, C++                |
-| 📊 Data Manipulation | pandas, NumPy, SQL                  |
-| 🔍 Data Visualization | matplotlib, seaborn, Plotly         |
-| 🧠 Machine Learning  | scikit-learn, TensorFlow, PyTorch   |
-| 🤖 Deep Learning     | Keras, TensorFlow, PyTorch          |
-| 📈 Statistical Analysis | StatsModels, SciPy               |
-| 🗄️ Big Data         | Hadoop, Spark                       |
-| 🗣️ Natural Language Processing | NLTK, SpaCy, BERT, GPT  |
-| 🖼️ Computer Vision  | OpenCV, PIL, TensorFlow, PyTorch    |
-| 🗃️ Database Management | MySQL, PostgreSQL, MongoDB       |
-| 🔄 Version Control   | Git, GitHub, GitLab                 |
-| 🐳 Containerization  | Docker, Kubernetes                  |
-| 📦 Deployment        | AWS, GCP, Azure                     |
-| 🧩 Problem-Solving   | Algorithm design, Analytical skills |
-| 🤝 Collaboration     | Jira, Confluence, Slack             |
-| 🗣️ Communication    | Technical writing, Presentation skills |
+**Key Features:**
 
-Sure! Here's a detailed guide on how to fork, clone, and use the repository for contributing and personal use:
+-Data preprocessing and normalization
+-Application of clustering algorithms
+-Visualization of clusters and insights
 
----
+### 3. PRODIGY_ML_03_Image_Classification
 
-## 🛠️ How to Fork, Clone & Use the Repo for Contributing and Personal Use
+**Objective:** Classify images into predefined categories.
 
-### 📌 Fork the Repository
+**Description:** This task involves building a model to classify images into different categories. You'll work with image data, apply image processing techniques, and train a classification model. Common approaches include using Convolutional Neural Networks (CNNs) and other deep learning architectures.
 
-1. **Navigate to the Repository**: Go to the GitHub page of the repository you want to fork.
+**Key Features:**
 
-2. **Fork the Repository**: Click on the **Fork** button at the top-right corner of the page. This will create a copy of the repository under your GitHub account.
+-Image data preprocessing
+-Application of CNNs for image classification
+-Model evaluation and performance metrics
 
-### 📥 Clone the Repository
+### 4. PRODIGY_ML_04_CNN_Hand_Gesture_Recognition
 
-1. **Open Terminal**: Open your terminal or command prompt.
+**Objective:** Recognize hand gestures from images using Convolutional Neural Networks (CNNs).
 
-2. **Clone the Forked Repository**:
-   ```bash
-   git clone https://github.com/yashksaini-coder/Prodigy-InfoTech
-   ```
-   
-3. **Navigate to the Repository Directory**:
-   ```bash
-   cd Prodigy-InfoTech
-   ```
+**Description:** This task involves building a model to recognize different hand gestures from images. It leverages CNNs to extract features and classify hand gestures into categories. The goal is to develop a robust model that can accurately identify various gestures in real-time.
 
-### 🛠️ Install Dependencies
+**Key Features:**
 
-1. **Create a Virtual Environment** (optional but recommended):
-   ```bash
-   python3 -m venv env
-   source env/bin/activate   # On Windows use `env\Scripts\activate`
-   ```
+Hand gesture dataset preparation
+Training CNNs for gesture recognition
+Model performance evaluation and fine-tuning
 
-2. **Install Required Packages**:
-   ```bash
-   pip install -r requirements.txt
-   ```
 
-### 🚀 Use the Repository
 
-1. **Run the Project**:
-   Follow the specific instructions provided in the repository's README file to run the project. This may involve running scripts, setting environment variables, or using specific commands.
+**Setup and Usage:**
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/prodigy-infotech-ml-tasks.git
 
-2. **Explore the Code**:
-   Open the project in your favorite code editor (e.g., VSCode, PyCharm) and explore the codebase.
+# Navigate to the directory
+cd PRODIGY_ML_01_Sales_Prediction
 
-### 🤝 Contribute to the Repository
+# Install dependencies
+pip install -r requirements.txt
 
-1. **Create a New Branch**:
-   ```bash
-   git checkout -b feature-branch-name
-   ```
-   Replace `feature-branch-name` with a descriptive name for your branch.
-
-2. **Make Changes**: Make your changes to the codebase.
-
-3. **Commit Changes**:
-   ```bash
-   git add .
-   git commit -m "Describe your changes"
-   ```
-
-4. **Push Changes to GitHub**:
-   ```bash
-   git push origin feature-branch-name
-   ```
-
-5. **Create a Pull Request**:
-   - Navigate to your forked repository on GitHub.
-   - Click on the **Compare & pull request** button.
-   - Provide a descriptive title and detailed description of your changes.
-   - Submit the pull request.
-
-### 📦 Keeping Your Fork Up-to-Date
-
-1. **Add the Original Repository as a Remote**:
-   ```bash
-   git remote add upstream https://github.com/yashksaini-coder/Prodigy-InfoTech
-   ```
-
-2. **Fetch Updates from the Original Repository**:
-   ```bash
-   git fetch upstream
-   ```
-
-3. **Merge Updates into Your Fork**:
-   ```bash
-   git checkout main
-   git merge upstream/main
-   ```
-
-4. **Push Updates to Your GitHub Fork**:
-   ```bash
-   git push origin main
-   ```
-
-By following these steps, you can effectively fork, clone, use, and contribute to the repository. Happy coding! 🚀
+# Run the script
+python sales_prediction.py
